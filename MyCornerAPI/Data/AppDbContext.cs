@@ -13,5 +13,7 @@ namespace MyCornerAPI.Data
         public DbSet<GalleryItem> GalleryItems { get; set; }
         public DbSet<Message> Messages { get; set; }
 
+        public DbSet<Policy> Policies { get; set; }
+
     }
 }
