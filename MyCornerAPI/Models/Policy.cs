@@ -11,6 +11,5 @@
         public DateTime EndDate { get; set; }
         public bool IsActive { get; set; }
 
-        public ApplicationUser User { get; set; }
     }
 }
